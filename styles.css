@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+#header-section {
+    background: linear-gradient(to right, #68a357, #88d499);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header-section h1 {
+    font-size: 2.5em;
+}
+
+#navbar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 -5px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #68a357;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #4c9a2a;
+    color: #f0f8f5;
+    transform: scale(1.05);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#main-content {
+    padding: 40px;
+    background-color: #fff;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#intro-section h2 {
+    color: #2e8b57;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#featured-dishes {
+    margin-bottom: 30px;
+}
+
+.dish-article {
+    margin-bottom: 20px;
+    background-color: #eaf5e1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.form-input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: calc(100% - 22px);
+}
+
+.submit-btn {
+    background-color: #68a357;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4c9a2a;
+    transform: scale(1.05);
+}
+
+#footer-section {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-link {
+    color: #f0f8f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #header-section h1 {
+        font-size: 2em;
+    }
+
+    #main-content {
+        padding: 20px;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+#para1 {
+    color : darkgreen;
+}
+#promoBanner {
+    transition: opacity 1.5s ease, visibility 1.5s;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #promoBanner.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  #promoBanner:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Header Section */
+#header-section {
+  background-color: #f8f9fa; /* Light background */
+  padding: 2rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#header-section h1 {
+  font-size: 2rem;
+  color: #28a745; /* Green color for brand title */
+  font-weight: 700;
+  margin: 0;
+}
+
+#authSection h5 {
+  font-size: 1rem;
+  color: #007bff; /* Blue color for login title */
+}
+
+#authSection input[type="text"] {
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+#authSection button {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Navbar Section */
+#navbar {
+  background-color: #28a745; /* Green navbar */
+  padding: 0.75rem 0;
+}
+
+#navbar .nav-link {
+  color: #fff !important; /* White color for navbar links */
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+  color: #ffd700 !important; /* Gold color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+  border-radius: 5px;
+}
+
+/* Date/Time Display */
+#dateTimeDisplay {
+  font-size: 1rem;
+  background-color: #e9f7ef;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
